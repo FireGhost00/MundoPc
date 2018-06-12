@@ -35,6 +35,6 @@ public class Teclado extends DispositivoEntrada{
     }
       @Override
     public String toString(){
-        return super.toString() + "{"+" idRaton"+idTeclado+", tipoEntrada="+getTipoEntrada()+", marca="+getMarca()+'}';
+        return "{"+" idTeclado"+idTeclado+", tipoEntrada="+getTipoEntrada()+", marca="+getMarca()+'}';
     }
 }
